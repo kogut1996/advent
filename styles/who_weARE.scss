@@ -1,0 +1,135 @@
+.who_weARE {
+  width: 100%;
+  height: 658px;
+  background-color: white;
+  h4 {
+    color: #3f444a;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    padding: 50px 0 0 50px;
+  }
+  .text_who_we {
+    color: #9da4ab;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    padding-bottom: 65px;
+  }
+  .main_box {
+    display: flex;
+    justify-content:center;
+.wrapper {
+  margin-top: -20px;
+  font-family: 'Roboto', sans-serif;
+  .tabs {
+    flex-flow: column;
+    text-align: center;
+    align-items: flex-end;
+    color: white;
+
+    .tab {
+      width: 530px;
+      height: 57px;
+      background-color: #3f444a;
+      padding-right: 15px;
+      border: none;
+      margin-top: 20px;
+      cursor: pointer;
+      }
+    @media screen and (max-width: 1090px) {
+      .tab {
+        width: 450px;
+      }
+    }
+    .active {
+      background-color: #ec4848;
+    }
+  }
+    .tab_item {
+      color: black;
+      width: 525px;
+      height: 140px;
+      background-color: #f8f8f8;
+      text-align: left;
+      padding-left: 20px;
+  }
+  @media screen and (max-width: 1090px) {
+    .tab_item {
+      width: 445px;
+    }
+  }
+  span {
+    font-size: 18px;
+    float: right;
+    color: #ec4848;
+  }
+  .tab:focus {
+    background-color: #ec4848;
+  }
+}
+    .box2 {
+      flex-flow: column;
+      color: white;
+      margin-left: 4%;
+      .element {
+        width: 538px;
+        height: 30px;
+        background-color: #f2f2f2;
+        margin-bottom: 34.1px;
+        .element1_1 {
+          width: 80%;
+          height: 30px;
+          background-color: #ec4848;
+          line-height: 2rem;
+          padding-left: 10px;
+        }
+      }
+      .element2_2 {
+        width: 60%;
+        height: 30px;
+        background-color: #ec4848;
+        padding-left: 10px;
+        line-height: 2rem;
+      }
+      .element3_3 {
+        width: 75%;
+        height: 30px;
+        background-color: #ec4848;
+        line-height: 2rem;
+        padding-left: 10px;
+      }
+      .element4_4 {
+        width: 90%;
+        height: 30px;
+        background-color: #ec4848;
+        line-height: 2rem;
+        padding-left: 10px;
+      }
+      .element5_5 {
+        width: 50%;
+        height: 30px;
+        background-color: #ec4848;
+        line-height: 2rem;
+        padding-left: 10px;
+      }
+      .element6_6 {
+        width: 85%;
+        height: 30px;
+        background-color: #ec4848;
+        line-height: 2rem;
+        padding-left: 10px;
+      }
+      @media screen and (max-width: 1200px) {
+        .element {
+          width: 430px;
+        }
+      }
+    }
+    }
+  }
+
+
+
+

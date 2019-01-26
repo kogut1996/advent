@@ -1,0 +1,52 @@
+h1{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+}
+h3{
+  text-align: center;
+  color: #7d868f;
+}
+.p_our_works{
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #7d868f;
+}
+.toggles{
+  display: flex;
+  justify-content: center;
+  border: none;
+}
+button{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  background-color: rgba(141, 0, 0, 0);
+  padding-bottom: 20px;
+}
+button:hover{
+  color: #ec4848;
+}
+.posts{
+  width: 90%;
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: auto auto auto;
+  padding-bottom: 20px;
+  justify-content: center;
+}
+.post{
+  margin: 1px 5px 1px 5px;
+}
+@media screen and (max-width: 1110px) {
+  .posts img {
+    width: 320px;
+  }
+h3 big{
+  font-size: 22px;
+}
+}

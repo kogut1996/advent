@@ -1,0 +1,140 @@
+.what_we_offer {
+  margin-top: -10px;
+  font-family: 'Roboto', sans-serif;
+  color: #727c86;
+  font-size: 18px;
+  .text_offer {
+    text-align: center;
+    margin: 50px 1px 60px ;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: #3f444a;
+  }
+  .block_offer {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    color: #3f444a;
+
+    .box_offer{
+      display: flex;
+      color:#7d868f;
+      .box_icon {
+            width: 80px;
+            height: 80px;
+            background-color: #ec4848;
+            margin: 4% 4% 0 0;
+           .icon_offer {
+              margin: 25px 15px 15px 20px;
+           }
+         }
+      .block_text{
+        width: 490px;
+        height: 150px;
+        .text_offer{
+          line-height: 1rem;
+          margin: 30px 0 10px -85px;
+        }
+      }
+    }
+
+
+
+    //.block_technical {
+    //  display: flex;
+    //  .box_icon {
+    //    width: 80px;
+    //    height: 80px;
+    //    background-color: #ec4848;
+    //    .icon_offer {
+    //      margin: 25px 15px 15px 20px;
+    //    }
+    //  }
+    //  .block_text {
+    //    margin-left: 35px;
+    //    .text_technical {
+    //      margin-top: -6px;
+    //      font-family: 'Roboto', sans-serif;
+    //      font-weight: bold;
+    //      font-size: 25px;
+    //      color: #3f444a;
+    //    }
+    //  }
+    //}
+    //.block_contract {
+    //  display: flex;
+    //  .box_contract {
+    //    width: 80px;
+    //    height: 80px;
+    //    background-color: #ec4848;
+    //    .icon_contract {
+    //      margin: 25px 15px 15px 20px;
+    //    }
+    //  }
+    //  .block_text_contract {
+    //    margin-left: 35px;
+    //    .text_contract {
+    //      margin-top: -6px;
+    //      font-family: 'Roboto', sans-serif;
+    //      font-weight: bold;
+    //      font-size: 25px;
+    //      color: #3f444a;
+    //    }
+    //  }
+    //}
+    //.block_consultation {
+    //  display: flex;
+    //  margin-top: 30px;
+    //  .box_consultation {
+    //    width: 80px;
+    //    height: 80px;
+    //    background-color: #ec4848;
+    //    .icon_consultation {
+    //      margin: 25px 15px 15px 20px;
+    //    }
+    //  }
+    //  .block_text_consultation {
+    //    margin-left: 35px;
+    //    .text_consultation {
+    //      margin-top: -6px;
+    //      font-family: 'Roboto', sans-serif;
+    //      font-weight: bold;
+    //      font-size: 25px;
+    //      color: #3f444a;
+    //    }
+    //   }
+    //  }
+    //  .block_support {
+    //    display: flex;
+    //    margin-top: 30px;
+    //    .box_support {
+    //      width: 80px;
+    //      height: 80px;
+    //      background-color: #ec4848;
+    //      .icon_support {
+    //        width: 70px;
+    //        height: 70px;
+    //        margin: 5px;
+    //    }
+    //    }
+    //    .block_text_support {
+    //      margin-left: 35px;
+    //      .text_support {
+    //        margin-top: -6px;
+    //        font-family: 'Roboto', sans-serif;
+    //        font-weight: bold;
+    //        font-size: 25px;
+    //        color: #3f444a;
+    //      }
+    //    }
+    //  }
+
+  }
+  .hr_offer{
+    color: rgba(249, 249, 249, 0.86);
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+}
+

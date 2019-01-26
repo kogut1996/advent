@@ -1,0 +1,52 @@
+h1{
+  text-align: center;
+  color: #3f444a;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  margin: 70px 1px 40px;
+}
+h5{
+color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  text-align: center;
+}
+.our_service{
+  display: flex;
+  justify-content: space-around;
+  .box_service {
+    width: 330px;
+    height: 460px;
+    background-color: rgba(49, 52, 56, 0.89);
+    border: 1px solid #dbdbdb;
+    border-radius: 10px;
+    .icon_service{
+      padding: 33px 120px 20px 120px;
+    }
+    .text_service{
+      margin-left: 25px;
+        color: #b2b4b7;
+        font-size: 18px;
+      padding-bottom: 40px;
+    }
+    .input_service{
+          width: 155px;
+          height: 55px;
+          background-color: #ec4848;
+          border: none;
+          color: white;
+          font-family: 'Roboto', sans-serif;
+          font-weight: bold;
+          font-size: 16px;
+          cursor: pointer;
+          margin-left: 25%;
+        }
+  }
+}
+.hr_our_service{
+  color: #ebebeb;
+  margin: 40px 1px 50px 1px;
+}
+
